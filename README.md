@@ -5,6 +5,7 @@ FaceSwap is written in Python and uses face alignment, Gauss Newton optimization
 
 ## How to use it ##
 To start the program you will have to run a file named zad2.py (Polish for exercise 2), which will require:
+  * cmake
   * Python 2.7 (I recommend Anaconda)
   * OpenCV (I used 2.4.13)
   * Numpy
