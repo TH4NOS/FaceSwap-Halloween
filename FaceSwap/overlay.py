@@ -19,7 +19,7 @@ import utils
 
 #loading the keypoint detection model, the image and the 3D model
 predictor_path = "../shape_predictor_68_face_landmarks.dat"
-image_name = "../data/I2.jpg"
+image_name = "../data/image/I2.jpg"
 #the smaller this value gets the faster the detection will work
 #if it is too small, the user's face might not be detected
 maxImageSizeForDetection = 150
