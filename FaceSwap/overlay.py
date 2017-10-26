@@ -3,13 +3,14 @@ import cv2
 import numpy as np
 import os
 import random
+import glob
 
 import models
 import NonLinearLeastSquares
 import ImageProcessing
 
 from drawing import *
-
+from random import *
 import FaceRendering
 import utils
 
@@ -19,7 +20,10 @@ import utils
 
 #loading the keypoint detection model, the image and the 3D model
 predictor_path = "../shape_predictor_68_face_landmarks.dat"
-image_name = "../data/image/I2.jpg"
+# Getting All files in Path
+file_list = glob.glob("../data/image/*.jpg")
+image_index = randint(0, len(file_list)-1)
+image_name = file_list[image_index]
 #the smaller this value gets the faster the detection will work
 #if it is too small, the user's face might not be detected
 maxImageSizeForDetection = 150
