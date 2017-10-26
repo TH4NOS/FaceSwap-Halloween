@@ -1,17 +1,36 @@
 # FaceSwap #
 FaceSwap is written in Python and uses face alignment, Gauss Newton optimization and image blending to swap the face of a person seen by the camera with a face of a person in a provided image.
 
+## Prerequisites
 
+Install the following packages
+
+* build-essential
+* cmake
+* pkg-config
+* libx11-dev
+* libatlas-base-dev
+* libgtk-3-dev
+* libboost-python-dev
+* python-dev
+* python-pip
+* python3-dev
+* python3-pip
+
+
+and run the following command 
+```
+pip2 install -r requirements.txt
+```
 
 ## How to use it ##
 To start the program you will have to run a file named zad2.py (Polish for exercise 2), which will require:
-  * cmake
-  * Python 2.7 (I recommend Anaconda)
-  * OpenCV (I used 2.4.13)
-  * Numpy
-  * dlib
-  * pygame
-  * PyOpenGL
+* Python 2.7 (I recommend Anaconda)
+* OpenCV (I used 2.4.13)
+* Numpy
+* dlib
+* pygame
+* PyOpenGL
 
 You can download all of the libraries above either from PIP or from Christoph Gohlke's excellent website: http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
