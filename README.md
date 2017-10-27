@@ -72,6 +72,7 @@ The model fitting is accomplished by minimizing the difference between the proje
 ## Licensing ##
 The code is licensed under the MIT license, some of the data in the project is downloaded from 3rd party websites:
   * candide 3D face model source - http://www.icg.isy.liu.se/candide/
+  * All images used in the code for testing have been accquired from google.com, pinterest.com
 
 
 Will be soon adding code for webserver.
