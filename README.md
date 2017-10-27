@@ -25,7 +25,7 @@ pip2 install -r requirements.txt
 
 ## How to use it ##
 To start the program you will have to run a file named overalay.py , which will require:
-* Python 2.7 (I recommend Anaconda)
+* Python 2.7
 * OpenCV (I used 2.4.13)
 * Numpy
 * dlib
@@ -40,6 +40,10 @@ You can extract the file by running the following command :
 ```
 bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
 ```
+
+### Note
+ Its easy to set it up in virtual environmnet using python 2.7 & above. 
+ For erradicating deprecated packages errors use Ubuntu 16.04 LTS
 
 
 ## How it works ##
