@@ -24,7 +24,7 @@ pip2 install -r requirements.txt
 ```
 
 ## How to use it ##
-To start the program you will have to run a file named zad2.py (Polish for exercise 2), which will require:
+To start the program you will have to run a file named overalay.py , which will require:
 * Python 2.7 (I recommend Anaconda)
 * OpenCV (I used 2.4.13)
 * Numpy
