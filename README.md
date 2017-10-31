@@ -73,5 +73,8 @@ The model fitting is accomplished by minimizing the difference between the proje
 The code is licensed under the MIT license, some of the data in the project is downloaded from 3rd party websites:
   * candide 3D face model source - http://www.icg.isy.liu.se/candide/
 
+## UPDATE ##
+Have Uploaded the latest script to run the script as a webserver.
+* https://github.com/TH4NOS/FaceSwap-Server-Halloween
   
   
