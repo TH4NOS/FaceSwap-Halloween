@@ -16,3 +16,4 @@ scipy
 six
 SQLAlchemy
 urllib3
+tensorflow
